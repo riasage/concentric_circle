@@ -1,0 +1,18 @@
+body{font-family:sans-serif;background:#f6f6f6;margin:0;}
+svg{width:100%;height:auto;min-height:300px;background:#fff;border:1px solid #e1e1e1;}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px;display:grid;gap:16px;}
+.panel{background:#fff;border:1px solid #e1e1e1;border-radius:8px;padding:16px;}
+.panel h1,.panel h2{margin:0 0 12px;}
+label{display:block;margin:10px 0;}
+input,select{width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;}
+.checkbox{display:flex;gap:8px;align-items:center;}
+.checkbox input{width:auto;}
+button{margin-top:8px;padding:10px 14px;border:0;border-radius:6px;background:#1f6feb;color:#fff;cursor:pointer;}
+button:hover{background:#1a5ec4;}
+.muted{color:#666;margin:0 0 10px;}
+.status{margin-top:8px;min-height:18px;color:#333;}
+.status.error{color:#b00020;}
+.status.ok{color:#166534;}
+.list{list-style:none;padding:0;margin:0;}
+.list li{padding:8px 0;border-bottom:1px solid #eee;}
+.map{min-height:360px;}
